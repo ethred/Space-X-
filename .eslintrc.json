@@ -1,0 +1,42 @@
+{
+    "env": {
+      "browser": true,
+      "es6": true,
+      "jest": true
+    },
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "extends": ["airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+    "plugins": ["react"],
+    "rules": {
+      "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+      "react/react-in-jsx-scope": "off",
+      "import/no-unresolved": "off",
+      "no-shadow": "off",
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": true,
+          "optionalDependencies": false,
+          "peerDependencies": false,
+          "packageDir": "./" // Use this to specify the path to your package.json if needed
+        }
+      ]
+    },
+    "overrides": [
+      {
+        "files": ["src/**/*Slice.js"],
+        "rules": { "no-param-reassign": ["error", { "props": false }] }
+      }
+    ],
+    "ignorePatterns": [
+      "dist/",
+      "build/"
+    ]
+  }

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyPage component matches snapshot 1`] = `
+<div>
+  <section>
+    <div
+      class="type"
+    >
+      <h2>
+        Rocket Joined
+      </h2>
+      <ul>
+        <li>
+          Rocket 1
+        </li>
+      </ul>
+    </div>
+    <div
+      class="type"
+    >
+      <h2>
+        Missions Joined
+      </h2>
+      <ul>
+        <li>
+          Mission 1
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+`;

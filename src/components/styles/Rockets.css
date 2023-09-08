@@ -1,0 +1,89 @@
+.rocket_container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 5px 0;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.space {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-family: sans-serif;
+}
+
+.img {
+  flex: 1;
+}
+
+.img img {
+  width: 100%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  gap: 10px;
+}
+
+.headline_h2 {
+  color: #4d5053;
+  font-size: 2em;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.details p {
+  color: #4d5053;
+  padding-right: 5px;
+  font-family: monospace;
+  font-size: 1.25rem;
+  line-height: 24px;
+  padding-left: 10px;
+}
+
+.reserved {
+  background-color: #68c1d0;
+  color: #fff;
+  margin-right: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 120px;
+  font-size: 1rem;
+  font-family: monospace;
+}
+
+.reserve_rocket_btn {
+  width: 11vw;
+  height: 5vh;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  transition: 0.5s;
+  font-size: 1rem;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.reserve_rocket_btn:hover {
+  background-color: #094c94;
+  color: #000;
+}
+
+.cancel_reserve_rocket_btn {
+  width: 15vw;
+  height: 5vh;
+  background-color: #fff;
+  border: 1px solid #cdd0d2;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.5s;
+  color: #373737;
+  font-size: 1rem;
+  font-family: monospace;
+  cursor: pointer;
+}

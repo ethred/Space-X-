@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rockets component matches snapshot 1`] = `
+<div>
+  <div
+    class="loading"
+  >
+    Loading, please wait...
+  </div>
+</div>
+`;

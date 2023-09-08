@@ -1,0 +1,70 @@
+.missions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.missions-table th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.missions-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.missions-table th:nth-child(1),
+.missions-table td:nth-child(1) {
+  width: 150px;
+}
+
+.missions-table th:nth-child(2),
+.missions-table td:nth-child(2) {
+  width: 65vw;
+}
+
+.status-column {
+  display: table;
+  width: 100%;
+}
+
+.status-text {
+  display: table-cell;
+  padding: 2px;
+  border-right: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.status-button {
+  border: 1px solid #ccc;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  padding: 5px 10px;
+  transition: color 0.3s, border-color 0.3s, background-color 0.3s;
+  border-radius: 5px;
+}
+
+.status-button.leave {
+  border-color: red;
+  color: red;
+  background-color: white;
+}
+
+.active-member {
+  background-color: turquoise;
+}
+
+.not-member {
+  background-color: grey;
+}
+
+.status-p {
+  margin: 0;
+  text-align: center;
+}

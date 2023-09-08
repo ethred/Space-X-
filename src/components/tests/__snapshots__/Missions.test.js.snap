@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<table
+  className="missions-table"
+>
+  <thead>
+    <tr>
+      <th>
+        Mission
+      </th>
+      <th>
+        Description
+      </th>
+      <th>
+        Status
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Mission 1
+      </td>
+      <td>
+        Description 1
+      </td>
+      <td>
+        <div
+          className="status-column"
+        >
+          <div
+            className="status-text active-member"
+          >
+            <p
+              className="status-p"
+            >
+              Active member
+            </p>
+          </div>
+        </div>
+      </td>
+      <td>
+        <button
+          className="status-button leave"
+          onClick={[Function]}
+          type="button"
+        >
+          Leave Mission
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
